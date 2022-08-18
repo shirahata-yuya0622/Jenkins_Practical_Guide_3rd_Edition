@@ -7,3 +7,4 @@ hooks:
   ApplicationStart:
     - location: deploy.sh
       runas: root
+     
