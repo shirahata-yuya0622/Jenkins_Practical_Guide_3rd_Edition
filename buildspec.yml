@@ -1,6 +1,6 @@
 version: 0.2 
   
- phases: 
+phases: 
    install: 
      runtime-versions: 
        java: corretto17
@@ -14,13 +14,13 @@ version: 0.2
    post_build: 
      commands: 
        - echo Nothing to do in this phase
- artifacts: 
+artifacts: 
    files: 
      - target/sampleproject.war
      - appspec.yml
      - deploy.sh
    discard-paths: yes 
- cache: 
+cache: 
    paths: 
      - '/root/.m2/**/*' 
 
