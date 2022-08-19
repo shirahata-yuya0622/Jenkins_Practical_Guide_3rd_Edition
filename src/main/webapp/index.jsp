@@ -1,18 +1,18 @@
-<%@ page language="java" contentType="text/html; charset=windows-31j"
-    pageEncoding="windows-31j"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=windows-31j">
-		<title>“ü—Í‰æ–Ê</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>å…¥åŠ›ç”»é¢</title>
 	</head>
 	<body>
-		<h1>ƒTƒ“ƒvƒ‹ƒvƒƒOƒ‰ƒ€</h1>
+		<h1>ãƒ†ã‚¹ãƒˆãƒ—ãƒ­ã‚°ãƒ©ãƒ </h1>
 		<form action="./SampleServlet" method="post">
-			<label for="LastName">–¼Žš</label>: <input type="text" name="LastName" /><br />
-			<label for="FirstName">–¼‘O</label>: <input type="text" name="FirstName" /><br />
+			<label for="LastName">åå­—</label>: <input type="text" name="LastName" /><br />
+			<label for="FirstName">åå‰</label>: <input type="text" name="FirstName" /><br />
 			<input type="hidden" name="action" value="hello" />
-			<input type="submit" name="send" value="‘—M" />
+			<input type="submit" name="send" value="é€ä¿¡" />
 		</form>
 	</body>
 </html>
